@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Millénium'</title>
+    <link rel="stylesheet" href="src/Style/Css.css">
+    <link rel="stylesheet" href="src/Style/header.css">
+    <link rel="stylesheet" href="src/Style/footer.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+<body>
+    <!-- https://emmet.io/ -->
+        
+        <header class="header">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAB3UlEQVRoge2WP2sUURRHz52d2XWRjdbaWxglbNjKVktFRbLNishCNlU+QPwC+wlsJmBlmhFR0aRTW4XEBDVRSK+VQhJ1df/MtZgEwvrGbplX3NMMvPvOG+6beY8fGIbxPySvsLu2WDno/eyI0gIuZJP1AwQrUbofTzcf9X1ynY1sJXfOahCuAjM579vUiKuz1x988cUNxgd21xYrxxbbQfVGNWKqGjEFclPgM1BnwPPtZK7sgwsQjg8c/PqxIMgM8GmUhpcazXjvWPnpetJ5HQbDN8BsP6jNA/eLdsHxRUSkBYDq0thiADSa8R7CPQBBb/vgOhtBOQ9QLcurf2qH/O79eZlNlWkvXFyNgOYtdERYPpl32xXlOhvZAegN5HLugpJmNeGjJ67jjCAPs6d215POqfH65pO7p1XSLgBpNrdoFxy3VpTux/2g1laol4Lh263H7aWjf/NEpXpFR2kXOCfCxvBbadkHN9sAB++etc/IgBdA3VUXYWNIeK1xK/7qi5t7eLaTuXI/qM0jtFAuHg6/R2Vl9L203FiIB765hjEBLMZbjLcYbzHeYnwRrsV4i/GTcLMNcGAxvmDXMCaAxXiL8RbjLcZbjC/CtRhvMX4SbrYBDizGF+wahpHPXz1mTgBr+Lr+AAAAAElFTkSuQmCC"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header_menuBtn">
+          </button>
+          <T class=titre>Millénium</T>
+          <nav 
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.650ms
+            class="menu"
+            >
+            <ul>
+              <li><a href="index.html">Page d’accueil</a></li>
+              <h2>___________</h2>
+              <li><a href="mouvement.html">Le Mouvement artistique</a></li>
+              <h2>___________</h2>
+              <li><a href="billeterie.html">LBilleterie</a></li>
+              <h2>___________</h2> 
+              <li><a href="tarifs.html">Tarifs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+              <a href="ENindex.html">
+                <img src="public/img/anglais.webp"alt="drapeau"style="width:50px;height:30px;">
+              </a>
+            </ul>
+          </nav>
+        </header>
+
+        <br><article> Articles </article> 
+        <article>
+            <br><a href="article1.html">
+              <img src="public/img/Rectangle 6.webp" alt="Image Vélodrome"style="width:395px;height:345px;">
+            </a>
+            <p>
+              <a href="article1.html">Vélodrome</a>
+            </p>
+            <h2>
+              Un lieu unique en France. Situé proche de la célèbre avenue du Prado, cette enceinte est désormais un lieu de tourisme sur Marseille...</a>
+            </h2>
+          </article>
+          <h2>_____________________________________________</h2>
+    
+          <br><article>
+            <a href="article2.html">
+              <br><img src="public/img/image 22.webp" alt="Image Bad Boys" style="width:395px;height:395px;">
+            </a>
+            <p>
+              <a href="article2.html">Bad Boys</a>
+            </p>
+            <h2>
+              Ce son est issu de l’album Métèque et Mat, sorti en 1995 cet album ne fut pas un succès comme avait connu AKH avec le groupe IAM. Paradoxalement à ce « flop » plusieurs singles on connut des succès...</a>
+            </h2>
+          </article>
+          <h2>_____________________________________________</h2>
+    
+          <br><article>
+            <a href="article3.html">
+              <img src="public/img/Rectangle 6 (2).webp" alt="Work 1"style="width:395px;height:315px;">
+            </a>
+            <p>
+              <a href="article3.html">Marcel Pagnol</a>
+            </p>
+            <h2>
+              Comment parler de Marseille sans évoquer l’écrivain le plus marquant de son époque ! Marcel Pagnol, écrivain du XXème siècle. Originaire de la région Marseillaise plus précisément sur les hauteurs d’Aubagne...</a>
+            </h2>
+            
+          </article>
+          <h2>_____________________________________________</h2>
+    
+          <br><article>
+            <a href="article4.html">
+              <img src="public/img/Rectangle 6 (3).webp" alt="Work 1" style="width:395px;height:385px;">
+            </a>
+            <p>
+              <a href="article4.html">Adaptation Ciné</a>
+            </p>
+            <h2>
+              Le film La gloire de mon père, sortie en salle en 1990 et réalisé par Yves Robert. Est une adaptation cinématographique du célèbre livre de Marcel Pagnol. Ce film retrace ses souvenirs qu’il a vécu à Aubagne...</a>
+            </h2>
+           
+          </article>
+          <h2>_____________________________________________</h2>
+    
+          <br><article>
+            <a href="article5.html">
+              <img src="public/img/Rectangle 6 (4).webp" alt="Work 1"style="width:395px;height:375px;">
+            </a>
+            <p>
+              <a href="article5.html">L'avancée technologique</a>
+            </p>
+            <h2>
+              La technologie à avantagé de nombreuse personne. Désormais chaque artiste peut exprimer son travail via les réseaux sociaux et se créer un auditoire. On peut penser notamment à une personne qui chante très bien...</a>
+            </h2>
+            
+          </article>
+          <h2>_____________________________________________</h2>
+
+          <br><article>
+            <a href="article6.html">
+              <img src="public/img/image 21.webp" alt="Work 1" style="width:395px;height:320px;">
+            </a>
+            <p>
+              <a href="article6.html">Les dégâts sur la planète</a>
+            </p>
+            <h2>
+              Les adolescents du monde entier ont largement intégré les nouvelles technologies dans leur vie courante. Cet engouement s’est rapidement répandu dans la Terre entière, bien qu’il semble encore plus important...</a>
+            </h2>
+          </article>
+          <h2>_____________________________________________</h2>
+
+          <br><article>
+            <a href="article7.html">
+              <img src="public/img/image 11.webp" alt="Work 1" style="width:395px;height:320px;">
+            </a>
+            <p>
+              <a href="article7.html">Objet de la BU</a>
+            </p>
+            <h2>
+              L’homme n’a pas attendu le numérique pour tenter de palier ses faiblesses ou infirmités. Ainsi les premières prothèses dentaires identifiées datent de 5000av. J.-C. Depuis, progrès et innovations se sont succédé</a>
+            </h2>
+            
+          </article>
+          <h2>_____________________________________________</h2>
+
+  
+          <footer class="footer">
+            <a href="http://mmimontbeliard.com/">
+              <img class="logommi" src="public/img/MMI_dut_small_purple.webp"></a>
+            <br>
+            <h4> Mentions Légales</h4>
+            <p class="mentions">Projet réalisé dans le cadre d’un projet <br> pédagogique au sein du département MMi de Montbéliard
+            </p>
+            <h4> Me contacter</h4>
+            <p class="contacter">Thomas HADJ-AISSA A2<br>thomas.hadj_aissa@edu.univ-fcomte.fr
+            </p>
+            <img class="insta" src="public/img/instagram (2).svg"> <img class="twitter" src="public/img/twitter (2).svg"> <img class="linkedin" src="public/img/linkedin.svg"> 
+          
+            <p class="trait">_____________________
+          <br>
+          </footer>
+          
+  </body>
+</html>
