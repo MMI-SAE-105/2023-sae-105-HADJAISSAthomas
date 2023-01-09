@@ -14,13 +14,12 @@ little {
 .Descri {
     color: #303D40;
     font-size: 15px;
-    display: flex;
-
     background-color: #D9D9D9;
     margin-left: 5px;
-    margin-right: 140px;
+    margin-right: 20px;
 }
-
+.Acc {display: flex;
+}
 .Millénium {
     color: #D9D9D9;
     font-size: 40px;
@@ -29,6 +28,18 @@ little {
     margin-left: 10px;
     margin-right: 100px;
 }
+
+.Néo{ font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #303D40;
+
+}
+.Expr {font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #303D40;}
+
+.Titi {display: flex;}
+
 .Paris {
     color: #303D40;
     font-size: 40px;
@@ -47,6 +58,8 @@ div {
     display: flex;
   justify-content: center;
   }
+
+
   
 
 
