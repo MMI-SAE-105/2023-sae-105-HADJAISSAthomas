@@ -2,9 +2,9 @@
 body {
     background-color: #5F7377}
 T {
-    color: #D9D9D9}
+    color: #303D40}
 T{ 
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } 
 little {
@@ -12,17 +12,47 @@ little {
 
 
 .Descri {
-    color: #0F2439;
+    color: #303D40;
+    font-size: 15px;
 
     background-color: #D9D9D9;
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: 140px;
 }
+
+.Millénium {
+    color: #D9D9D9;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #5F7377;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.Paris {
+    color: #303D40;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: #5F7377;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.ImageT {
+    align-items: center;
+
+}
+
+div {
+    display: flex;
+  justify-content: center;
+  }
+  
 
 
 h1{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#303D40}
+    color:#D9D9D9}
 h2{font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#303D40}
@@ -100,6 +130,7 @@ ff{
     color:#fffffe;
 } 
 article {
+    margin-left: 5px;
     font-size: 35px;
     font-family: 'Trebuchet MS', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#D9D9D9;
