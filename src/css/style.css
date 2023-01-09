@@ -1,0 +1,244 @@
+
+body {
+    background-color: #152F5B;}
+T {
+    color: white}
+T{ 
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+little {
+    color: #CFAC62}
+
+little {
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+
+
+
+}
+h1{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white
+}
+h2{font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#CFAC62}
+
+a2{font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#CFAC62}
+
+.center {
+    text-align: center;
+}
+
+label{font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#CFAC62}
+
+PaysageB{opacity: 0.2;
+
+}
+#menu-vertical, #menu-vertical ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    width: 180px; /* seule ligne rajoutée */
+  }
+  #menu-vertical li {
+    position: relative;
+    background:#0F2439; /* juste pour cacher le texte de la page en-dessous */
+  }
+  #menu-vertical a {
+    display:block;
+    text-decoration: none;
+    color: #CFAC62;
+  }
+
+  #menu-vertical ul {
+    position: absolute;
+    left:-999em;
+  }
+
+  #menu-vertical li:hover ul {
+    top: 0;
+    left: 180px;
+  }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+   
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ft{ 
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#CFAC62;
+} 
+
+ff{ 
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#fffffe;
+} 
+article {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#CFAC62;
+}
+a{
+    font-size: 11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffffff;
+}
+N{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ffffff}
+    
+textarticle{font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ffffff}
+
+fr{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;}
+
+but{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#CFAC62;}
+
+datefilm{font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ffffff}
+
+nomfilm{font-size: 20px;
+    font-weight: bolder;
+    /*text-decoration: underline;*/
+    font-family: 'Trebucht MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ffffff}
+soustitre{font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#ffffff}
+            
+        def{font-size: 20px;
+            font-weight: lighter;
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:#ffffff}
+        
+        mot{font-size: 20px;
+            font-weight: bolder;
+            /*text-decoration: underline;*/
+            text-decoration: underline;
+            font-family: 'Trebucht MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:#ffffff}
+
+.texte_contacte {
+
+                font-size: 18px;
+              }
+
+              .input-group {
+                position: relative;
+               }
+               
+               .input {
+                border: solid 1.5px #CFAC62;
+                border-radius: 1rem;
+                background: none;
+                padding: 1rem;
+                font-size: 1rem;
+                color: #CFAC62;
+                transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+               }
+               
+               .user-label {
+                position: absolute;
+                left: 15px;
+                color: #fffffe;
+                pointer-events: none;
+                transform: translateY(1rem);
+                transition: 150ms cubic-bezier(0.4,0,0.2,1);
+               }
+               
+               .input:focus, input:valid {
+                outline: none;
+                border: 1.5px solid #ffffff;
+               }
+               
+               .input:focus ~ label, input:valid ~ label {
+                transform: translateY(-50%) scale(0.8);
+                padding: 0 .2em;
+                background-color: #152F5B;
+                color: #CFAC62;
+               }
+
+               button {
+                font-family: inherit;
+                font-size: 20px;
+                background: #CFAC62;
+                color: white;
+                padding: 0.7em 1em;
+                padding-left: 0.9em;
+                display: flex;
+                align-items: center;
+                border: none;
+                border-radius: 16px;
+                overflow: hidden;
+                transition: all 0.2s;
+              }
+              
+              button span {
+                display: block;
+                margin-left: 0.3em;
+                transition: all 0.3s ease-in-out;
+              }
+              
+              button svg {
+                display: block;
+                transform-origin: center center;
+                transition: transform 0.3s ease-in-out;
+              }
+              
+              button:hover .svg-wrapper {
+                animation: fly-1 0.6s ease-in-out infinite alternate;
+              }
+              
+              button:hover svg {
+                transform: translateX(1.2em) rotate(45deg) scale(1.1);
+              }
+              
+              button:hover span {
+                transform: translateX(5em);
+              }
+              
+              button:active {
+                transform: scale(0.95);
+              }
+              
+              @keyframes fly-1 {
+                from {
+                  transform: translateY(0.1em);
+                }
+              
+                to {
+                  transform: translateY(-0.1em);
+                }
+              }
+              
+              

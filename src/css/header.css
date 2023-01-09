@@ -1,0 +1,46 @@
+header {
+    color:#FFFFFF
+}
+.titre2 {
+  color:#FFFFFF
+}
+
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+  }
+.titre {
+    text-align: center;
+    color: #FFFFFF;
+  }
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 217vw;
+    background-color: #0F2439;
+    display: grid;
+    place-content: center;
+    font-size: 18px;
+  }
+.header_menuBtn {
+    position: relative;
+    z-index: 10;
+    display: block;
+    height: 10vw;
+    width: 10vw;
+    left: 360px;
+    top: 10px;
+
+  }
+.noscroll,
+.noscroll body {
+    overflow: hidden;
+  }
+
+little{
+  text-decoration: underline;
+  font-size: 23px;
+
+}
