@@ -1,17 +1,17 @@
 header {
-    color:#FFFFFF
+    color:#303D40
 }
 .titre2 {
-  color:#FFFFFF
+  color:#303D40
 }
 
 a{
     text-decoration: none;
-    color:#FFFFFF;
+    color:#303D40;
   }
 .titre {
     text-align: center;
-    color: #FFFFFF;
+    color: #303D40;
   }
 .menu {
     position: fixed;
@@ -19,7 +19,7 @@ a{
     left: 0;
     width: 100vw;
     height: 217vw;
-    background-color: #0F2439;
+    background-color: #d9d9d9;
     display: grid;
     place-content: center;
     font-size: 18px;
