@@ -34,6 +34,7 @@ a{
     width: 10vw;
     left: 310px;
     top: 20px;
+    z-index: 33;
 
   }
 .noscroll,

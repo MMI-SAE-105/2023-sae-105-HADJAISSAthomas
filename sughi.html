@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Millénium'</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/carrousel.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+<body>  
+        <header class="header">
+          <img src="public/img/Component 1.svg" alt="Menu" style="width:40px;height:40px"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header_menuBtn">
+          </button>
+          <T>Millénium'</T>
+          <nav 
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.650ms
+            class="menu"
+            >
+            <ul>
+              <li><a href="index.html">Page d’accueil</a></li>
+              <h2>___________</h2>
+              <li><a href="mouvement.html">Le Mouvement artistique</a></li>
+              <h2>___________</h2>
+              <li><a href="billeterie.html">Billeterie</a></li>
+              <li><a href="tarifs.html">Tarifs</a></li>
+              <h2>___________</h2> 
+              <li><a href="contact.html">Contact</a></li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="Exposition">
+        <div><img src="public/img/Component-16.webp"alt="Expo"style="width:250px;height:100px;"></div>
+        </div>            
+        <article>
+            <br>
+            <div class="Bio">
+                <div class="GustoInfo">
+                    <div class="Soul">
+                        Naissance
+                    </div>
+                    <div class="Rep">
+                        <ul>
+                            <li>
+                                5 octobre 1928; Cesena, Italy
+                            </li>
+                        </ul>
+                        <div class="Soul">
+                            Décès
+                        </div>
+                        <ul>
+                            <li>
+                                25 septembre 1993; Montreal, Quebec, Canada
+                            </li>
+                        </ul>
+                        
+                        <div class="Soul">
+                            Nationalité
+                        </div>
+                        <ul>
+                            <li>
+                                Canadien
+                            </li>
+                        </ul>
+                        <div class="Soul">
+                            Genre
+                        </div>
+                        <ul>
+                            <li>
+                                Abstrait
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                
+                
+                
+                <img src="/public/img/Rectangle-16.webp" style="width:180px;height:220px">
+            </div>
+
+
+            <div class="Guston">
+                <div class="Text1">René Marcil né le 29 mai 1917 à Montréal et mort le 25 septembre 1993 est un peintre et illustrateur de mode québecois. Il passe l'essentiel de sa vie professionnelle à New York, Paris, Londres et la Côte d'Azur.</div>
+                <br><div class="Text1"> Après guerre, son rôle est central dans le succès du lancement de la collection New Look de Christian Dior aux États-Unis.</div>
+                <br><div class="Text1">Dans sa jeunesse, alors qu'il se remet d'une opération chirurgicale majeure, il collectionne et copie des images saintes, des reproductions de Raphael et Piero Della Francesca.</div>
+                <br><div class="Text1">À 14 ans, il est admis à l'École des Beaux-Arts de Montréal.</div>
+            
+          </div>
+            <h4> Ses Oeuvres</h4>
+            <br>
+            <div class="carrousel" x-data="{}">
+                <div class="carrousel_parent-ecrans2">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-8-2.webp" alt="image ecran 1"></a>
+                            <figcaption2>Abstract 4</figcaption2>
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-8-3.webp" alt="image ecran 2">
+                            <figcaption2>Imper Dior</figcaption2>
+                        </figure>
+                    </div>
+                    <div id="ecran-3" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-8-4.webp" alt="image ecran 3">
+                            <figcaption2>THE PROTESTORS</figcaption2>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+              <a href="http://mmimontbeliard.com/">
+                <img class="logommi" src="public/img/MMI_dut_small_purple.webp"></a>
+              <br>
+              <h4> Mentions Légales</h4>
+              <p class="mentions">Projet réalisé dans le cadre d’un projet <br> pédagogique au sein du département MMi de Montbéliard
+              </p>
+              <h4> Me contacter</h4>
+              <p class="contacter">Thomas HADJ-AISSA A2<br>thomas.hadj_aissa@edu.univ-fcomte.fr
+              </p>
+              <img class="Linkedin" src="public/img/Component 9.svg"> <img class="Insta" src="public/img/Component 10.svg"> <img class="Twitter" src="public/img/Component 11.svg"> 
+            
+
+            <br>
+            </footer>
+            
+          
+  </body>
+</html>
