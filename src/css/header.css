@@ -24,6 +24,7 @@ a{
     display: grid;
     place-content: center;
     font-size: 18px;
+    z-index: 32;
   }
 .header_menuBtn {
     position: relative;

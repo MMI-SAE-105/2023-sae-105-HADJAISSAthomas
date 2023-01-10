@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Millénium'</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/carrousel.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+<body>  
+        <header class="header">
+          <img src="public/img/Component 1.svg" alt="Menu" style="width:40px;height:40px"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header_menuBtn">
+          </button>
+          <T>Millénium'</T>
+          <nav 
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.650ms
+            class="menu"
+            >
+            <ul>
+              <li><a href="index.html">Page d’accueil</a></li>
+              <h2>___________</h2>
+              <li><a href="mouvement.html">Le Mouvement artistique</a></li>
+              <h2>___________</h2>
+              <li><a href="billeterie.html">Billeterie</a></li>
+              <li><a href="tarifs.html">Tarifs</a></li>
+              <h2>___________</h2> 
+              <li><a href="contact.html">Contact</a></li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="Exposition">
+        <div><img src="public/img/Component-7_1.webp"alt="Expo"style="width:250px;height:100px;"></div>
+        </div>            
+        <article>
+            <br>
+            <ul>
+                <li>
+                  <Horaire>PLEIN TARIF : 11€</Horaire></li>
+                <li>
+                  <Horaire>TARIF REDUIT : 7,50€</Horaire>
+                </li>
+                <li>
+                    <Horaire>TARIF JEUNE* : 5€</Horaire>
+                  </li>
+              </ul>
+              <InfoTar>13ans-20ans</InfoTar>
+              <ul>
+                <li>
+                  <Horaire>FONDATION CARTIER PASS : 18€ - 50€</Horaire></li>
+                <li>
+                  <Horaire>TARIF GRATUIT : GRATUIT</Horaire>
+                </li>
+              </ul>
+              <InfoTar>*Moins de 13ans, Laissez-passer annuel, Carte Icom, carte de presse, Carte d'invalidité, Etudiants</InfoTar>
+
+              <div class="Billeterie">
+                <div><img src="public/img/Component-17.webp"alt="Expo"style="width:135px;height:40px;"></div>
+                </div>  
+
+                <br>
+                <div class="carrousel" x-data="{}">
+                    <div class="carrousel_parent-ecrans">
+                        <div id="ecran-1" class="carrousel_ecran">
+                            <figure>
+                                <a href="guston.html"><img src="/public/img/Rectangle-15.webp" alt="image ecran 1"></a>
+                                <figcaption>Philip GUSTON</figcaption>
+                            </figure>
+                        </div>
+                        <div id="ecran-2" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Rectangle-16.webp" alt="image ecran 2">
+                                <figcaption>René MARCIL</figcaption>
+                            </figure>
+                        </div>
+                        <div id="ecran-3" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Rectangle-17.webp" alt="image ecran 3">
+                                <figcaption>Julio POMAR</figcaption>
+                            </figure>
+                        </div>
+                        <div id="ecran-4" class="carrousel_ecran">
+                            <figure>
+                                <img src="/public/img/Rectangle-18.webp" alt="image ecran 4">
+                                <figcaption>Alberto SUGHI</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+            <footer class="footer">
+              <a href="http://mmimontbeliard.com/">
+                <img class="logommi" src="public/img/MMI_dut_small_purple.webp"></a>
+              <br>
+              <h4> Mentions Légales</h4>
+              <p class="mentions">Projet réalisé dans le cadre d’un projet <br> pédagogique au sein du département MMi de Montbéliard
+              </p>
+              <h4> Me contacter</h4>
+              <p class="contacter">Thomas HADJ-AISSA A2<br>thomas.hadj_aissa@edu.univ-fcomte.fr
+              </p>
+              <img class="Linkedin" src="public/img/Component 9.svg"> <img class="Insta" src="public/img/Component 10.svg"> <img class="Twitter" src="public/img/Component 11.svg"> 
+            
+
+            <br>
+            </footer>
+            
+          
+  </body>
+</html>

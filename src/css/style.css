@@ -38,6 +38,7 @@ Horaire{font-size: 20px;
   background-color: #303D40;
   margin-left: 5px;
   margin-right: 5px;
+  margin-top: 5px;
   color: #303D40;
   font-size: 15px;}
 
@@ -48,7 +49,9 @@ Horaire{font-size: 20px;
   margin-left: 5px;
   margin-right: 20px;
 }
-
+InfoTar{font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#303D40}
 .Acc {display: flex;
 }
 .Frise1 {display: flex;
@@ -138,6 +141,12 @@ Horaire{font-size: 20px;
 
   justify-content: center;
   }
+
+.Billeterie {
+    margin-left: 110px;
+  
+    justify-content: center;
+    }
 
 .Du13au{
 
