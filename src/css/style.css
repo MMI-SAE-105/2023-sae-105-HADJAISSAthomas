@@ -10,6 +10,10 @@ T{
 little {
     color: #303D40}
 
+Horaire{font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color:#D9D9D9}
+
 
 .Descri {
     color: #303D40;
@@ -32,13 +36,19 @@ little {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     background-color: #5F7377;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 100px;
 }
 .Adresse { font-size: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #D9D9D9;
-
+  margin-right: 5px;
+  margin-left: 100px;}
+.Fermeture { font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5F7377;
+    margin-right: 100px;
+    margin-left: 5px;
 }
 .Néo{ font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,7 +66,7 @@ little {
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     background-color: #5F7377;
-    margin-left: 100px;
+    margin-left: 180px;
     margin-right: 10px;
 }
 
@@ -73,7 +83,7 @@ little {
 
 .Du13au{
 
-  margin-left: 58px;
+  margin-left: 50px;
 }
 
   
@@ -202,7 +212,7 @@ nomfilm{font-size: 20px;
     color:#ffffff}
 soustitre{font-size: 25px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color:#ffffff}
+        color:#D9D9D9}
             
         def{font-size: 20px;
             font-weight: lighter;
