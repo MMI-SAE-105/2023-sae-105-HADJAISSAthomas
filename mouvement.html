@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/carrousel.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
 
@@ -39,43 +40,62 @@
         </header>
 
         <div class="Exposition">
-        <div><img src="public/img/Component-13.webp"alt="Expo"style="width:250px;height:120px;"></div>
-        </div>
-        <br>
-        <div class="Millénium">Millénium'</div>
-        <div class="Paris">Paris</div>
-            
+        <div><img src="public/img/Component-7.webp"alt="Expo"style="width:250px;height:100px;"></div>
+        </div>            
         <article>
             <br>
-            <div class="Titi">
-            <div class="Néo"> Néo</div>
-            <div class="Expr"> -expressionisme</div>
+            <div class="Text1">Le néo-expressionnisme est un phénomène pictural qui a émergé vers la fin des années 1970 et qui est surtout caractéristique de la scène artistique occidentale des années 1980.</div>
             </div>
-            <br>
-            <div class="Acc">
-            <div class="Descri">Le néo-expressionnisme est un phénomène pictural qui a émergé vers la fin des années 1970 et qui est surtout caractéristique de la scène artistique occidentale des années 1980.
+            <div class="imgtext">
+                <img src="public/img/image-1.webp" style="width:120px;height:180px">
+            <div class="Text2">Il s'est développé en Europe et en Amérique plus précisément aux États-Unis en réaction contre l'art conceptuel et minimaliste.
             </div>
-            <img src="public/img/image-1.webp" style="width:120px;height:180px">
             </div>
+            <div class="Text1">Les néo-expressionnistes reviennent à la peinture figurative, en adoptant un style violemment émotif, et une iconographie volontairement provocatrice.</div>
+            <br><div class="Text1">Pour les artistes ci-dessous, il s'agit d'affirmer une expression subjective, renouant avec la matérialité et la gestualité de la peinture.</div>
 
-            <div class="Info">
-            <div class="Du13au">
-              <img src="public/img/Component 14.svg"alt="Du13"style="width:250px;height:120px;"></div>
-              <SousTitre>Horaires d’ouverture :</SousTitre>
-              
-              <ul>
-                <li>
-                  <Horaire>Tous les jours de 11h à 20h sauf le Lundi</Horaire></li>
-                <li>
-                  <Horaire>Nocturne le mardi jusqu'a 22h</Horaire>
-                </li>
-              </ul>
-              <div class="Fermeture">*On rappel que les fermetures se font 15min avant.</div>
-              <br>
-              <div class="Adresse">Fondation CARTIER, 61 Bd Raspail, 75014 Paris</div>
-              
-              
+            <br>
+            <div class="carrousel" x-data="{}">
+                <div class="carrousel_parent-ecrans">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-15.webp" alt="image ecran 1">
+                            <figcaption>Philip GUSTON</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-16.webp" alt="image ecran 2">
+                            <figcaption>René MARCIL</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-3" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-17.webp" alt="image ecran 3">
+                            <figcaption>Julio POMAR</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-4" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/Rectangle-18.webp" alt="image ecran 4">
+                            <figcaption>Alberto SUGHI</figcaption>
+                        </figure>
+                    </div>
+                </div>
             </div>
+        
+            <br>
+            <div class="Frise1">
+                <img src="public/img/Rectangle-15.webp" style="width:100px;height:100px">
+                <div class="Date">
+                    <ul>
+                        <li>
+                        Philip GUSTON 1913
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
 
             <footer class="footer">
               <a href="http://mmimontbeliard.com/">
