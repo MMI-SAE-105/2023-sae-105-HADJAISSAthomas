@@ -1,0 +1,58 @@
+footer {
+    background-color: #5F7377;
+    color: #ffffff;
+    position: end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    }
+  .logommi {
+      width: 15vw;
+      display: block;
+      float: right;
+    }
+  .mentions {
+      text-align: center;
+    }
+  .contacter {
+      text-align: center;
+    }
+  .Linkedin {
+      width: 10vw;
+      display: inline-block;
+      position: relative;
+      left: 25%;
+    }
+  .Insta {
+      width: 10vw;
+      display: inline-block;
+      position: relative;
+      left: 33%;
+    }
+  .Twitter {
+      width: 10vw;
+      display: inline-block;
+      position: relative;
+      left: 40%;
+    }
+    .ligneblanche {
+      width: 300px;
+      justify-content: center;
+      margin: auto;
+    }
+
+
+    h4{ font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:#303D40;
+        text-decoration:underline;
+    }
+
+    .mentions{font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#D9D9D9}
+
+    .contacter{font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:#D9D9D9}
