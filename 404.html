@@ -1,43 +1,11 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Millénium'</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/footer.css">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    </head>
-
-<body>  
-        <header class="header">
-          <img src="public/img/Component 1.svg" alt="Menu" style="width:40px;height:40px"
-          @click="menuIsOpen = ! menuIsOpen"
-          class="header_menuBtn">
-          </button>
-          <T>Millénium'</T>
-          <nav 
-            id="mainNav"
-            x-show="menuIsOpen"
-            x-transition.duration.650ms
-            class="menu"
-            >
-            <ul>
-              <li><a href="index.html"> Accueil </a></li>
-              <h2>___________</h2>
-              <li><a href="mouvement.html"> Le Mouvement artistique </a></li>
-              <h2>___________</h2>
-              <li><a href="billeterie.html"> Billeterie </a></li>
-              <li><a href="tarifs.html"> Tarifs </a></li>
-              <h2>___________</h2> 
-              <li><a href="contact.html"> Contact </a></li>
-              <h2>___________</h2> 
-              <li><a href="anglais.html"> Anglais </a></li>
-              </a>
-            </ul>
-          </nav>
-        </header>
-        Erreur404
-</body>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js%22%3E</script>
+<title>404 - Page Non trouvée</title>
+<h1>Page Non trouvée</h1>
+<form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <label for="q">Que rechercher-vous :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
