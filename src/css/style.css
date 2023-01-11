@@ -13,6 +13,7 @@ little {
 .Tbille{
   font-size: 16px;
   text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 Horaire{font-size: 20px;
@@ -338,7 +339,7 @@ soustitre{font-size: 25px;
                }
 
                button {
-                font-family: inherit;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 font-size: 20px;
                 background: #303D40;
                 color: white;
@@ -350,7 +351,7 @@ soustitre{font-size: 25px;
                 border-radius: 16px;
                 overflow: hidden;
                 transition: all 0.2s;
-                margin-left: 115px;
+                margin-left: 110px;
               }
               
               button span {
