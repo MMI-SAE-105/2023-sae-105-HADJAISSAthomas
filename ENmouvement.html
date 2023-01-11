@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Millénium'</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/carrousel.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+<body>  
+        <header class="header">
+          <img src="public/img/Component 1.svg" alt="Menu" style="width:40px;height:40px"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header_menuBtn">
+          </button>
+          <T>Millénium'</T>
+          <nav 
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.650ms
+            class="menu"
+            >
+            <ul>
+              <li><a href="index.html"> Accueil </a></li>
+              <h2>___________</h2>
+              <li><a href="mouvement.html"> Le Mouvement artistique </a></li>
+              <h2>___________</h2>
+              <li><a href="billeterie.html"> Billeterie </a></li>
+              <li><a href="tarifs.html"> Tarifs </a></li>
+              <h2>___________</h2> 
+              <li><a href="contact.html"> Contact </a></li>
+              <h2>___________</h2> 
+              <li><a href="anglais.html"> Anglais </a></li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="Exposition">
+        <div><img src="public/img/Component-7.webp"alt="Expo"style="width:250px;height:100px;"></div>
+        </div>            
+        <article>
+            <br>
+            <div class="Text1">Le néo-expressionnisme est un phénomène pictural qui a émergé vers la fin des années 1970 et qui est surtout caractéristique de la scène artistique occidentale des années 1980.</div>
+            </div>
+            <div class="imgtext">
+                <img src="public/img/image-1.webp" style="width:120px;height:180px">
+            <div class="Text2">Il s'est développé en Europe et en Amérique plus précisément aux États-Unis en réaction contre l'art conceptuel et minimaliste.
+            </div>
+            </div>
+            <div class="Text1">Les néo-expressionnistes reviennent à la peinture figurative, en adoptant un style violemment émotif, et une iconographie volontairement provocatrice.</div>
+            <br><div class="Text1">Pour les artistes ci-dessous, il s'agit d'affirmer une expression subjective, renouant avec la matérialité et la gestualité de la peinture.</div>
+
+            <br>
+            <div class="carrousel" x-data="{}">
+                <div class="carrousel_parent-ecrans">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <a href="guston.html"><img src="/public/img/Rectangle-15.webp" alt="image ecran 1"></a>
+                            <figcaption>Philip GUSTON</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <a href="marcil.html"><img src="/public/img/Rectangle-16.webp" alt="image ecran 2"></a>
+                            <figcaption>René MARCIL</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-3" class="carrousel_ecran">
+                        <figure>
+                            <a href="pomar.html"><img src="/public/img/Rectangle-17.webp" alt="image ecran 3"></a>
+                            <figcaption>Julio POMAR</figcaption>
+                        </figure>
+                    </div>
+                    <div id="ecran-4" class="carrousel_ecran">
+                        <figure>
+                            <a href="sughi.html"><img src="/public/img/Rectangle-18.webp" alt="image ecran 4"></a>
+                            <figcaption>Alberto SUGHI</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        
+            <br>
+            <div class="Frise1">
+                <img src="public/img/Rectangle-15.webp" style="width:100px;height:100px">
+                <div class="Date">
+                    <ul>
+                        <li>
+                        Philip GUSTON 1913
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Frise1">
+               <div class="Date">
+                    <ul>
+                        <li>
+                            René MARCIL
+                            1917
+                        </li>
+                    </ul>
+                </div>
+                <img src="public/img/Rectangle-16.webp" style="width:100px;height:100px">
+            </div>
+            <div class="Frise1">
+                <img src="public/img/Rectangle-17.webp" style="width:100px;height:100px">
+                <div class="Date">
+                    <ul>
+                        <li>
+                            Julio POMAR 
+                            1926
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Frise1">
+                <div class="Date">
+                     <ul>
+                         <li>
+                            Alberto SUGHI
+                            1928
+                         </li>
+                     </ul>
+                 </div>
+                 <img src="public/img/Rectangle-18.webp" style="width:100px;height:100px">
+             </div>
+
+
+            <footer class="footer">
+              <a href="http://mmimontbeliard.com/">
+                <img class="logommi" src="public/img/MMI_dut_small_purple.webp"></a>
+              <br>
+              <h4> Mentions Légales</h4>
+              <p class="mentions">Projet réalisé dans le cadre d’un projet <br> pédagogique au sein du département MMi de Montbéliard
+              </p>
+              <h4> Me contacter</h4>
+              <p class="contacter"> Thomas HADJ-AISSA A2<br> thomas.hadj_aissa@edu.univ-fcomte.fr
+              </p>
+              <img class="Linkedin" src="public/img/Component 9.svg"> <img class="Insta" src="public/img/Component 10.svg"> <img class="Twitter" src="public/img/Component 11.svg"> 
+            
+
+            <br>
+            </footer>
+            
+          
+  </body>
+</html>

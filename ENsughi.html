@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{dd1Open: false, dd2Open: false, dd3Open: false, menuIsOpen: false}"  :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Millénium'</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="src/css/carrousel.css">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    </head>
+
+<body>  
+        <header class="header">
+          <img src="public/img/Component 1.svg" alt="Menu" style="width:40px;height:40px"
+          @click="menuIsOpen = ! menuIsOpen"
+          class="header_menuBtn">
+          </button>
+          <T>Millénium'</T>
+          <nav 
+            id="mainNav"
+            x-show="menuIsOpen"
+            x-transition.duration.650ms
+            class="menu"
+            >
+            <ul>
+              <li><a href="index.html"> Accueil </a></li>
+              <h2>___________</h2>
+              <li><a href="mouvement.html"> Le Mouvement artistique </a></li>
+              <h2>___________</h2>
+              <li><a href="billeterie.html"> Billeterie </a></li>
+              <li><a href="tarifs.html"> Tarifs </a></li>
+              <h2>___________</h2> 
+              <li><a href="contact.html"> Contact </a></li>
+              <h2>___________</h2> 
+              <li><a href="anglais.html"> Anglais </a></li>
+              </a>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="Exposition">
+        <div><img src="public/img/component-16-9.webp"alt="Expo"style="width:250px;height:100px;"></div>
+        </div>            
+        <article>
+            <br>
+            <div class="Bio">
+                <div class="GustoInfo">
+                    <div class="Soul">
+                        Naissance
+                    </div>
+                    <div class="Rep">
+                        <ul>
+                            <li>
+                                5 octobre 1928; Cesena, Italy
+                            </li>
+                        </ul>
+                        <div class="Soul">
+                            Décès
+                        </div>
+                        <ul>
+                            <li>
+                                31 mars 2012; Bologna, Italy
+                            </li>
+                        </ul>
+                        
+                        <div class="Soul">
+                            Nationalité
+                        </div>
+                        <ul>
+                            <li>
+                                Italien
+                            </li>
+                        </ul>
+                        <div class="Soul">
+                            Genre
+                        </div>
+                        <ul>
+                            <li>
+                                Abstrait
+                            </li>
+                        </ul>
+                    </div>  
+                </div>
+                
+                
+                
+                <img src="/public/img/Rectangle-18.webp" style="width:180px;height:220px">
+            </div>
+
+
+            <div class="Guston">
+                <div class="Text1">Alberto Sughi (né le 5 octobre 1928 à Cesena, et mort le 31 mars 2012) est un peintre italien contemporain.</div>
+                <br><div class="Text1"> Alberto Sughi est un autodidacte qui a appris seul la peinture après avoir été initié par son oncle qui lui a en appris les premiers rudiments.</div>
+                <br><div class="Text1">Dans les années années 1940 il développe le style expressionniste qu'il porte à sa maturité dans les années 1950.</div>
+                <br><div class="Text1">En 1948 il quitte Cesena pour Rome où il fréquente le groupe artistique dit Gruppo di Portonaccio composé d'artistes.</div>
+            
+          </div>
+            <h4> Ses Oeuvres</h4>
+            <br>
+            <div class="carrousel" x-data="{}">
+                <div class="carrousel_parent-ecrans2">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/rectangle-8-7.webp" alt="image ecran 1"></a>
+                            <br><figcaption2> At the end of the day</figcaption2>
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/rectangle-8-8.webp" alt="image ecran 2">
+                            <figcaption2>Clues</figcaption2>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+              <a href="http://mmimontbeliard.com/">
+                <img class="logommi" src="public/img/MMI_dut_small_purple.webp"></a>
+              <br>
+              <h4> Mentions Légales</h4>
+              <p class="mentions">Projet réalisé dans le cadre d’un projet <br> pédagogique au sein du département MMi de Montbéliard
+              </p>
+              <h4> Me contacter</h4>
+              <p class="contacter"> Thomas HADJ-AISSA A2<br> thomas.hadj_aissa@edu.univ-fcomte.fr
+              </p>
+              <img class="Linkedin" src="public/img/Component 9.svg"> <img class="Insta" src="public/img/Component 10.svg"> <img class="Twitter" src="public/img/Component 11.svg"> 
+            
+
+            <br>
+            </footer>
+            
+          
+  </body>
+</html>
